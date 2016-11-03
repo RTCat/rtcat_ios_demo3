@@ -8,8 +8,8 @@
 
 1. `git clone https://github.com/RTCat/rtcat_ios_demo3.git`
 2. 通过Xcode导入 `demo3.xcodeproj` 文件
-3. `RTCatSDK.framework` [下载地址](cdn.realtimecat.com/realtimecat/rtc-ios-sdk-0.2.zip) 。下载完成后解压并导入项目目录。
-4. 在 `ViewController.m` 中的 `sessionId` `apiKey` `apiSecret` 处填入从实时猫控制台获取的信息 `APIKEY`,`SECRET`,`SESSION` 。
+3. `RTCatSDK.framework` [下载地址](https://cdn.realtimecat.com/realtimecat/rtc-ios-sdk-0.2.zip) 。下载完成后解压并导入项目目录。
+4. 在 `ViewController.m` 中的 `sessionId` `apiKey` `apiSecret` 处填入从实时猫控制台获取的信息 `SESSION` `APIKEY` `SECRET`。
 
 
 
