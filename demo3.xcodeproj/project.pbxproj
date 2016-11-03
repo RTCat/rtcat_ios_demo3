@@ -13,6 +13,22 @@
 		F23F7CE21DC34C9400CB602E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23F7CE01DC34C9400CB602E /* Main.storyboard */; };
 		F23F7CE41DC34C9400CB602E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23F7CE31DC34C9400CB602E /* Assets.xcassets */; };
 		F23F7CE71DC34C9400CB602E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23F7CE51DC34C9400CB602E /* LaunchScreen.storyboard */; };
+		F23F7CF21DC34CE000CB602E /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7CF11DC34CE000CB602E /* VideoToolbox.framework */; };
+		F23F7CF41DC34CE700CB602E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7CF31DC34CE700CB602E /* QuartzCore.framework */; };
+		F23F7CF61DC34CEF00CB602E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7CF51DC34CEF00CB602E /* OpenGLES.framework */; };
+		F23F7CF81DC34CF700CB602E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7CF71DC34CF700CB602E /* GLKit.framework */; };
+		F23F7CFA1DC34D0700CB602E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7CF91DC34D0700CB602E /* CoreVideo.framework */; };
+		F23F7CFC1DC34D1200CB602E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7CFB1DC34D1200CB602E /* AudioToolbox.framework */; };
+		F23F7CFE1DC34D2600CB602E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7CFD1DC34D2600CB602E /* CoreMedia.framework */; };
+		F23F7D001DC34D2E00CB602E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7CFF1DC34D2E00CB602E /* CoreGraphics.framework */; };
+		F23F7D021DC34D3500CB602E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7D011DC34D3500CB602E /* CoreAudio.framework */; };
+		F23F7D041DC34D3A00CB602E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7D031DC34D3A00CB602E /* AVFoundation.framework */; };
+		F23F7D061DC34D4100CB602E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7D051DC34D4100CB602E /* CFNetwork.framework */; };
+		F23F7D081DC34D4800CB602E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7D071DC34D4800CB602E /* libsqlite3.tbd */; };
+		F23F7D0A1DC34D5300CB602E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7D091DC34D5300CB602E /* libc++.tbd */; };
+		F23F7D0C1DC34D5D00CB602E /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F23F7D0B1DC34D5D00CB602E /* libicucore.A.tbd */; };
+		F2815AE01DCB147100D63C22 /* RTCatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2815ADF1DCB147100D63C22 /* RTCatSDK.framework */; };
+		F2CA3F411DC6E06100FAF965 /* Side.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CA3F401DC6E06100FAF965 /* Side.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,23 @@
 		F23F7CE31DC34C9400CB602E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F23F7CE61DC34C9400CB602E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F23F7CE81DC34C9400CB602E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23F7CF11DC34CE000CB602E /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F23F7CF31DC34CE700CB602E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F23F7CF51DC34CEF00CB602E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F23F7CF71DC34CF700CB602E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F23F7CF91DC34D0700CB602E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F23F7CFB1DC34D1200CB602E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F23F7CFD1DC34D2600CB602E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F23F7CFF1DC34D2E00CB602E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F23F7D011DC34D3500CB602E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		F23F7D031DC34D3A00CB602E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F23F7D051DC34D4100CB602E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F23F7D071DC34D4800CB602E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F23F7D091DC34D5300CB602E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F23F7D0B1DC34D5D00CB602E /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		F2815ADF1DCB147100D63C22 /* RTCatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RTCatSDK.framework; sourceTree = "<group>"; };
+		F2CA3F3F1DC6E06100FAF965 /* Side.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Side.h; sourceTree = "<group>"; };
+		F2CA3F401DC6E06100FAF965 /* Side.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Side.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2815AE01DCB147100D63C22 /* RTCatSDK.framework in Frameworks */,
+				F23F7D0C1DC34D5D00CB602E /* libicucore.A.tbd in Frameworks */,
+				F23F7D0A1DC34D5300CB602E /* libc++.tbd in Frameworks */,
+				F23F7D081DC34D4800CB602E /* libsqlite3.tbd in Frameworks */,
+				F23F7D061DC34D4100CB602E /* CFNetwork.framework in Frameworks */,
+				F23F7D041DC34D3A00CB602E /* AVFoundation.framework in Frameworks */,
+				F23F7D021DC34D3500CB602E /* CoreAudio.framework in Frameworks */,
+				F23F7D001DC34D2E00CB602E /* CoreGraphics.framework in Frameworks */,
+				F23F7CFE1DC34D2600CB602E /* CoreMedia.framework in Frameworks */,
+				F23F7CFC1DC34D1200CB602E /* AudioToolbox.framework in Frameworks */,
+				F23F7CFA1DC34D0700CB602E /* CoreVideo.framework in Frameworks */,
+				F23F7CF81DC34CF700CB602E /* GLKit.framework in Frameworks */,
+				F23F7CF61DC34CEF00CB602E /* OpenGLES.framework in Frameworks */,
+				F23F7CF41DC34CE700CB602E /* QuartzCore.framework in Frameworks */,
+				F23F7CF21DC34CE000CB602E /* VideoToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +90,10 @@
 		F23F7CCB1DC34C9300CB602E = {
 			isa = PBXGroup;
 			children = (
+				F2815ADF1DCB147100D63C22 /* RTCatSDK.framework */,
 				F23F7CD61DC34C9400CB602E /* demo3 */,
 				F23F7CD51DC34C9400CB602E /* Products */,
+				F23F7CF01DC34CE000CB602E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +108,10 @@
 		F23F7CD61DC34C9400CB602E /* demo3 */ = {
 			isa = PBXGroup;
 			children = (
-				F23F7CDA1DC34C9400CB602E /* AppDelegate.h */,
-				F23F7CDB1DC34C9400CB602E /* AppDelegate.m */,
 				F23F7CDD1DC34C9400CB602E /* ViewController.h */,
 				F23F7CDE1DC34C9400CB602E /* ViewController.m */,
-				F23F7CE01DC34C9400CB602E /* Main.storyboard */,
-				F23F7CE31DC34C9400CB602E /* Assets.xcassets */,
-				F23F7CE51DC34C9400CB602E /* LaunchScreen.storyboard */,
-				F23F7CE81DC34C9400CB602E /* Info.plist */,
+				F2CA3F3F1DC6E06100FAF965 /* Side.h */,
+				F2CA3F401DC6E06100FAF965 /* Side.m */,
 				F23F7CD71DC34C9400CB602E /* Supporting Files */,
 			);
 			path = demo3;
@@ -74,9 +120,36 @@
 		F23F7CD71DC34C9400CB602E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F23F7CE01DC34C9400CB602E /* Main.storyboard */,
+				F23F7CE31DC34C9400CB602E /* Assets.xcassets */,
+				F23F7CE51DC34C9400CB602E /* LaunchScreen.storyboard */,
+				F23F7CE81DC34C9400CB602E /* Info.plist */,
+				F23F7CDB1DC34C9400CB602E /* AppDelegate.m */,
+				F23F7CDA1DC34C9400CB602E /* AppDelegate.h */,
 				F23F7CD81DC34C9400CB602E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F23F7CF01DC34CE000CB602E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F23F7D0B1DC34D5D00CB602E /* libicucore.A.tbd */,
+				F23F7D091DC34D5300CB602E /* libc++.tbd */,
+				F23F7D071DC34D4800CB602E /* libsqlite3.tbd */,
+				F23F7D051DC34D4100CB602E /* CFNetwork.framework */,
+				F23F7D031DC34D3A00CB602E /* AVFoundation.framework */,
+				F23F7D011DC34D3500CB602E /* CoreAudio.framework */,
+				F23F7CFF1DC34D2E00CB602E /* CoreGraphics.framework */,
+				F23F7CFD1DC34D2600CB602E /* CoreMedia.framework */,
+				F23F7CFB1DC34D1200CB602E /* AudioToolbox.framework */,
+				F23F7CF91DC34D0700CB602E /* CoreVideo.framework */,
+				F23F7CF71DC34CF700CB602E /* GLKit.framework */,
+				F23F7CF51DC34CEF00CB602E /* OpenGLES.framework */,
+				F23F7CF31DC34CE700CB602E /* QuartzCore.framework */,
+				F23F7CF11DC34CE000CB602E /* VideoToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +226,7 @@
 			files = (
 				F23F7CDF1DC34C9400CB602E /* ViewController.m in Sources */,
 				F23F7CDC1DC34C9400CB602E /* AppDelegate.m in Sources */,
+				F2CA3F411DC6E06100FAF965 /* Side.m in Sources */,
 				F23F7CD91DC34C9400CB602E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +348,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TXCLPPJG27;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = demo3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shishimao.demo3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -286,8 +367,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TXCLPPJG27;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = demo3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shishimao.demo3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -312,6 +400,7 @@
 				F23F7CED1DC34C9400CB602E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
